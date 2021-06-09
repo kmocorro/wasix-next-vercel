@@ -1,0 +1,24 @@
+{
+  "name": "wasix-next-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start --port $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.16.2",
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2",
+    "swr": "^0.5.6"
+  }
+}
