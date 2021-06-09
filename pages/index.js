@@ -1,9 +1,14 @@
+import { Typography } from 'antd'
+import Hero from '../components/hero'
+
+const { Title, Text } = Typography
 
 const Index = () => {
   return (
     <div>
-      <h1>Hello World!</h1>
-      <p>I am now connected to GitHub and currently on DEVELOPMENT branch</p>
+      <Hero>
+        <Title>Hello World!</Title>
+      </Hero>
     </div>
   )
 }
